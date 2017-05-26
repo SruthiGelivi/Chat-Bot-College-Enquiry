@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.imageapp310477"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.ionicframework.imageapp310477"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.imageapp310477"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.imageapp310477"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.imageapp310477"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.imageapp310477"
+        }
+    },
+    "dependent_plugins": {}
+}

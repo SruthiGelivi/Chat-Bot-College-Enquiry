@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+
+.grey-content{
+    
+    background-image: url(background.jpg);
+}
+
+.button1{
+    background-color: antiquewhite;
+    width: inherit;
+}
+
+.list-content{
+    border-bottom-color: cornflowerblue;
+    
+
+}

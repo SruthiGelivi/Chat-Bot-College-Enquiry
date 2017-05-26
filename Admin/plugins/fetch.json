@@ -1,0 +1,58 @@
+{
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@~1.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.ionic.keyboard": {
+        "source": {
+            "type": "registry",
+            "id": "com.ionic.keyboard"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-camera@~2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.camera": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.camera"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

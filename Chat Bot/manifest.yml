@@ -1,0 +1,19 @@
+---
+declared-services:
+  my-conversation-sruthi:
+    label: conversation
+    plan: free
+applications:
+- name: conversation-simple
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: conversation-simple-master-cloudant
+  host: conversation-simple-master-cloudant-${random-word}
+  services:
+  - my-conversation-sruthi
+  env:
+    NPM_CONFIG_PRODUCTION: false
+    WORKSPACE_ID: f6914549-ff9f-4c5e-9306-6cafa97964f1

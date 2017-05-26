@@ -1,0 +1,32 @@
+<ion-view class="grey-content" ng-style="{'background-image': url('../img/background.jpg')}"  title="Admin Home">
+    <ion-content>
+        <div background="www/img/background.jpg">
+            
+            <div>
+                <a>.    </a></div>
+            <div class="padding-left padding-right">
+                <div class="button-bar">
+<!--                    <a class="button" ng-click="login(username, password)">Login</a>-->
+<!--                    <a class="button" ng-click="register(username, password)">Register</a>-->
+                                        <a class="button" ng-click="retrive()">retreive</a> 
+                                            
+                </div>
+                <div>
+                <a>.     </a></div>
+                 <ion-list class="list-content">
+<!--          add a section header -->
+         <ion-item class="item-divider">List of Messages</ion-item>
+<!--             iterate thru each item in the list, use $index as item identifier -->
+            <ion-item ng-repeat="item in itemsList track by $index">
+            {{$index}} - {{item.name}} - {{item.message}}
+                <button ion-button color="primary" ng-click = "showPopup()">Add</button>
+            </ion-item>
+      </ion-list>
+            </div>
+            
+            
+            
+        </div>
+        
+    </ion-content>
+</ion-view>

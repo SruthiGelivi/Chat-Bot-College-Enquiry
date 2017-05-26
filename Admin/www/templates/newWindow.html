@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body>
+  <form id="theForm" action="newPopUp.html" method="GET">
+    <input type="text" id="theField" name="theField">
+    <br><input type="submit" value="Send" onclick="window.open('/urawum/1','','height=400,width=400'); return false;">
+  </form>
+</body>
+</html>
+
+
+
+  $('#popupformid').submit(function() {
+
+                var myVar = $('#somethingelseid').val();
+                $('input:text.something').val(myVar);
+                document.getElementById("formID").submit();
+         });
